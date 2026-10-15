@@ -1,33 +1,34 @@
-# Regression — Machine Learning Capstone
+# Classification — Machine Learning Capstone
 
 ## Overview
-This track focuses on predicting continuous numerical values using regression algorithms. The workflow includes Exploratory Data Analysis (EDA), data preprocessing, feature engineering, model training, evaluation, and hyperparameter tuning.
+This track focuses on predicting categorical outcomes using classification algorithms. It includes data exploration, preprocessing, feature engineering, model training, performance comparison, and hyperparameter tuning.
 
 ## Workflow
-1. Dataset loading and exploration
+1. Dataset loading and EDA
 2. Data cleaning and preprocessing
-3. Feature engineering and selection
-4. Training and testing data split
-5. Regression model implementation and comparison
+3. Categorical encoding and feature scaling, where appropriate
+4. Stratified training and testing split, where appropriate
+5. Classification model implementation and comparison
 6. Hyperparameter tuning and final model selection
 
 ## Evaluation Metrics
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-- R-squared (R²)
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
 
 ## Technologies Used
 Python, Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn.
 
 ## How to Run
-1. Open the regression notebook.
+1. Open the classification notebook.
 2. Install the required Python libraries.
 3. Ensure the dataset path is correct.
-4. Execute all cells sequentially to view the analysis, model comparisons, and results.
+4. Execute all cells sequentially to view model comparisons, evaluation metrics, and visualizations.
 
 ## Results
-The regression models are compared using appropriate evaluation metrics to identify a suitable model for the prediction task.
+The classification models are compared using multiple evaluation metrics to identify the most suitable model for the prediction task.
 
 **Parent Repository:** [ML_Capstone](https://github.com/KunaBabyKaliPriya/ML_Capstone)
 
